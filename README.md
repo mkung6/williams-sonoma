@@ -10,6 +10,8 @@ I implemented my solution to use localStorage, storing the product ID as the key
 
 For example, if this was a shopping cart, we would fetch the stored products from the database based on its product ID in order to get current and up to date info. At this point I would ask or investigate the backend, as I assume it's written in a way that takes care of the N+1 problem--as in, I wouldn't have to make one query for every unique product in my stored products, and that the products endpoint would be able to serve up all my data in one go. I would then refactor my code in displayStorage() to properly fetch that way.
 
+Tested in Chrome.
+
 
 ## Directions:
 
