@@ -4,7 +4,7 @@ Download the files and open `index.html` in a browser.
 
 ## Notes:
 
-I tried using vanilla Javascript for the entire app, instead of using frameworks or libraries like React. This way I can focus on quickly building up the proof of concept. As such, I stored the product info and assigned it to a variable, which mimics a real app after data has been fetched from a database. I also didn't use any ES6 and as such don't have access to find() or filter() methods, therefore I created my own findProduct() function, for example.
+I tried using vanilla Javascript for the entire app, instead of using frameworks or libraries like React. This way I can focus on quickly building up the proof of concept and satisfy the requirement of using vanilla JS. As such, I stored the product info and assigned it to a variable, which mimics a real app after data has been fetched from a database. I also didn't use any ES6 and as such don't have access to find() or filter() methods, therefore I created my own findProduct() function, for example.
 
 I implemented my solution to use localStorage, storing the product ID as the key and a count of how many of that product is being stored--similar to a shopping cart. I used the product ID, instead of storing the entire product object data, keeping in mind scalability but also the fact that product data might change over time (price, reviews, etc).
 
